@@ -1,0 +1,55 @@
+.root{
+  --main--blue: #7b9bf3;
+}
+
+header {
+
+background-color: var(--main--blue);
+
+width: 100%;
+
+position: fixed;
+
+display: flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+padding: 10px 200px;
+
+z-index: 999;
+
+}
+.logo{
+
+text-decoration: none;
+
+color: 
+ var(--main--blue);
+ font-size: 1.8em;
+
+}
+.navigation{
+
+color: var(--main--blue);
+
+text-decoration: none;
+
+font-size: 1.1em;
+
+font-weight: 500;
+
+padding-left: 30px;
+
+}
+
+.navigation:hover{
+
+color: #601cfc;
+
+}
+
+.footer{
+  color: var(--main--blue);
+}
